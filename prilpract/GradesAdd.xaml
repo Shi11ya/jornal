@@ -1,0 +1,30 @@
+﻿<Page x:Class="prilpract.GradesAdd"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:prilpract"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="GradesAdd">
+
+    <Grid Background="CadetBlue">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Height="393" Width="184">
+            <TextBlock Text="Код оценки" Margin="5" FontFamily="Georgia"/>
+            <TextBox Text="{Binding gradeid}" Margin="5"/>
+            <TextBlock Text="ФИО ученика" Margin="5" FontFamily="Georgia"/>
+            <TextBox Text="{Binding studentid}" Margin="5"/>
+            <TextBlock Text="Наименование предмета" Margin="5" FontFamily="Georgia"/>
+            <TextBox Text="{Binding subjectid}" Margin="5"/>
+            <TextBlock Text="Оценка" Margin="5" FontFamily="Georgia"/>
+            <TextBox Text="{Binding grade}" Margin="5"/>
+            <TextBlock Text="Когда выставлена" Margin="5" FontFamily="Georgia"/>
+            <TextBox Text="{Binding gradedate}" Margin="5"/>
+            <TextBlock Text="Кем выставлена" Margin="5" FontFamily="Georgia"/>
+            <TextBox Text="{Binding teacherid}" Margin="5"/>
+            <Button x:Name="SaveBtn" Content="Сохранить" Margin="5" Width="150" Height="27" Background="Lime" FontFamily="Georgia" Click="SaveBtn_Click" />
+            <Button x:Name="BackBtn" Content="Назад" Margin="5" Width="150" Height="27" Background="Violet" FontFamily="Georgia" Click="BackBtn_Click"  />
+        </StackPanel>
+        
+    </Grid>
+</Page>

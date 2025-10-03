@@ -1,0 +1,567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Хранилище SchoolDBModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Classes">
+          <Key>
+            <PropertyRef Name="classid" />
+          </Key>
+          <Property Name="classid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="classname" Type="ntext" />
+          <Property Name="classteacherid" Type="int" />
+        </EntityType>
+        <EntityType Name="Grades">
+          <Key>
+            <PropertyRef Name="gradeid" />
+          </Key>
+          <Property Name="gradeid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="studentid" Type="int" />
+          <Property Name="subjectid" Type="int" />
+          <Property Name="grade" Type="decimal" Precision="6" Scale="1" />
+          <Property Name="gradedate" Type="date" />
+          <Property Name="teacherid" Type="int" />
+        </EntityType>
+        <EntityType Name="Journ">
+          <Key>
+            <PropertyRef Name="login" />
+          </Key>
+          <Property Name="idlog" Type="int" Nullable="false" />
+          <Property Name="login" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="operation" Type="ntext" Nullable="false" />
+          <Property Name="dateop" Type="date" Nullable="false" />
+          <Property Name="userid" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Students">
+          <Key>
+            <PropertyRef Name="studentid" />
+          </Key>
+          <Property Name="studentid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="studentFIO" Type="ntext" />
+          <Property Name="birthdate" Type="date" />
+          <Property Name="gender" Type="ntext" />
+          <Property Name="phone" Type="int" />
+          <Property Name="classid" Type="int" />
+        </EntityType>
+        <EntityType Name="Subjects">
+          <Key>
+            <PropertyRef Name="subjectid" />
+          </Key>
+          <Property Name="subjectid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="subjectname" Type="ntext" />
+          <Property Name="hoursperweek" Type="int" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="Teachers">
+          <Key>
+            <PropertyRef Name="teacherid" />
+          </Key>
+          <Property Name="teacherid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="teacherFIO" Type="ntext" />
+          <Property Name="birthdate" Type="date" />
+          <Property Name="gender" Type="ntext" />
+          <Property Name="phone" Type="int" />
+          <Property Name="subjectspecialization" Type="ntext" />
+        </EntityType>
+        <EntityType Name="TeacherSubjects">
+          <Key>
+            <PropertyRef Name="teacherid" />
+            <PropertyRef Name="subjectid" />
+          </Key>
+          <Property Name="teacherid" Type="int" Nullable="false" />
+          <Property Name="subjectid" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="userid" />
+          </Key>
+          <Property Name="userid" Type="int" Nullable="false" />
+          <Property Name="login" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="passw" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="rights" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__Classes__class_t__38996AB5">
+          <End Role="Teachers" Type="Self.Teachers" Multiplicity="0..1" />
+          <End Role="Classes" Type="Self.Classes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Teachers">
+              <PropertyRef Name="teacherid" />
+            </Principal>
+            <Dependent Role="Classes">
+              <PropertyRef Name="classteacherid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Grades__student___440B1D61">
+          <End Role="Students" Type="Self.Students" Multiplicity="0..1" />
+          <End Role="Grades" Type="Self.Grades" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Students">
+              <PropertyRef Name="studentid" />
+            </Principal>
+            <Dependent Role="Grades">
+              <PropertyRef Name="studentid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Grades__subject___44FF419A">
+          <End Role="Subjects" Type="Self.Subjects" Multiplicity="0..1" />
+          <End Role="Grades" Type="Self.Grades" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Subjects">
+              <PropertyRef Name="subjectid" />
+            </Principal>
+            <Dependent Role="Grades">
+              <PropertyRef Name="subjectid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Grades__teacher___45F365D3">
+          <End Role="Teachers" Type="Self.Teachers" Multiplicity="0..1" />
+          <End Role="Grades" Type="Self.Grades" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Teachers">
+              <PropertyRef Name="teacherid" />
+            </Principal>
+            <Dependent Role="Grades">
+              <PropertyRef Name="teacherid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Students__class___3B75D760">
+          <End Role="Classes" Type="Self.Classes" Multiplicity="0..1" />
+          <End Role="Students" Type="Self.Students" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Classes">
+              <PropertyRef Name="classid" />
+            </Principal>
+            <Dependent Role="Students">
+              <PropertyRef Name="classid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Teacher_S__subje__412EB0B6">
+          <End Role="Subjects" Type="Self.Subjects" Multiplicity="1" />
+          <End Role="TeacherSubjects" Type="Self.TeacherSubjects" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Subjects">
+              <PropertyRef Name="subjectid" />
+            </Principal>
+            <Dependent Role="TeacherSubjects">
+              <PropertyRef Name="subjectid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Teacher_S__teach__403A8C7D">
+          <End Role="Teachers" Type="Self.Teachers" Multiplicity="1" />
+          <End Role="TeacherSubjects" Type="Self.TeacherSubjects" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Teachers">
+              <PropertyRef Name="teacherid" />
+            </Principal>
+            <Dependent Role="TeacherSubjects">
+              <PropertyRef Name="teacherid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Journ_Users">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="Journ" Type="Self.Journ" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="userid" />
+            </Principal>
+            <Dependent Role="Journ">
+              <PropertyRef Name="userid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Хранилище SchoolDBModelContainer">
+          <EntitySet Name="Classes" EntityType="Self.Classes" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Grades" EntityType="Self.Grades" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Journ" EntityType="Self.Journ" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Students" EntityType="Self.Students" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Subjects" EntityType="Self.Subjects" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Teachers" EntityType="Self.Teachers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TeacherSubjects" EntityType="Self.TeacherSubjects" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__Classes__class_t__38996AB5" Association="Self.FK__Classes__class_t__38996AB5">
+            <End Role="Teachers" EntitySet="Teachers" />
+            <End Role="Classes" EntitySet="Classes" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Grades__student___440B1D61" Association="Self.FK__Grades__student___440B1D61">
+            <End Role="Students" EntitySet="Students" />
+            <End Role="Grades" EntitySet="Grades" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Grades__subject___44FF419A" Association="Self.FK__Grades__subject___44FF419A">
+            <End Role="Subjects" EntitySet="Subjects" />
+            <End Role="Grades" EntitySet="Grades" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Grades__teacher___45F365D3" Association="Self.FK__Grades__teacher___45F365D3">
+            <End Role="Teachers" EntitySet="Teachers" />
+            <End Role="Grades" EntitySet="Grades" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Students__class___3B75D760" Association="Self.FK__Students__class___3B75D760">
+            <End Role="Classes" EntitySet="Classes" />
+            <End Role="Students" EntitySet="Students" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Teacher_S__subje__412EB0B6" Association="Self.FK__Teacher_S__subje__412EB0B6">
+            <End Role="Subjects" EntitySet="Subjects" />
+            <End Role="TeacherSubjects" EntitySet="TeacherSubjects" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Teacher_S__teach__403A8C7D" Association="Self.FK__Teacher_S__teach__403A8C7D">
+            <End Role="Teachers" EntitySet="Teachers" />
+            <End Role="TeacherSubjects" EntitySet="TeacherSubjects" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Journ_Users" Association="Self.FK_Journ_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Journ" EntitySet="Journ" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SchoolDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Classes">
+          <Key>
+            <PropertyRef Name="classid" />
+          </Key>
+          <Property Name="classid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="classname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="classteacherid" Type="Int32" />
+          <NavigationProperty Name="Teachers" Relationship="Self.FK__Classes__class_t__38996AB5" FromRole="Classes" ToRole="Teachers" />
+          <NavigationProperty Name="Students" Relationship="Self.FK__Students__class___3B75D760" FromRole="Classes" ToRole="Students" />
+        </EntityType>
+        <EntityType Name="Grades">
+          <Key>
+            <PropertyRef Name="gradeid" />
+          </Key>
+          <Property Name="gradeid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="studentid" Type="Int32" />
+          <Property Name="subjectid" Type="Int32" />
+          <Property Name="grade" Type="Decimal" Precision="6" Scale="1" />
+          <Property Name="gradedate" Type="DateTime" Precision="0" />
+          <Property Name="teacherid" Type="Int32" />
+          <NavigationProperty Name="Students" Relationship="Self.FK__Grades__student___440B1D61" FromRole="Grades" ToRole="Students" />
+          <NavigationProperty Name="Subjects" Relationship="Self.FK__Grades__subject___44FF419A" FromRole="Grades" ToRole="Subjects" />
+          <NavigationProperty Name="Teachers" Relationship="Self.FK__Grades__teacher___45F365D3" FromRole="Grades" ToRole="Teachers" />
+        </EntityType>
+        <EntityType Name="Journ">
+          <Key>
+            <PropertyRef Name="login" />
+          </Key>
+          <Property Name="idlog" Type="Int32" Nullable="false" />
+          <Property Name="login" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="operation" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="dateop" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="userid" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Users" Relationship="Self.FK_Journ_Users" FromRole="Journ" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="Students">
+          <Key>
+            <PropertyRef Name="studentid" />
+          </Key>
+          <Property Name="studentid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="studentFIO" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="birthdate" Type="DateTime" Precision="0" />
+          <Property Name="gender" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="phone" Type="Int32" />
+          <Property Name="classid" Type="Int32" />
+          <NavigationProperty Name="Classes" Relationship="Self.FK__Students__class___3B75D760" FromRole="Students" ToRole="Classes" />
+          <NavigationProperty Name="Grades" Relationship="Self.FK__Grades__student___440B1D61" FromRole="Students" ToRole="Grades" />
+        </EntityType>
+        <EntityType Name="Subjects">
+          <Key>
+            <PropertyRef Name="subjectid" />
+          </Key>
+          <Property Name="subjectid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="subjectname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="hoursperweek" Type="Int32" />
+          <NavigationProperty Name="Grades" Relationship="Self.FK__Grades__subject___44FF419A" FromRole="Subjects" ToRole="Grades" />
+          <NavigationProperty Name="Teachers" Relationship="Self.TeacherSubjects" FromRole="Subjects" ToRole="Teachers" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Teachers">
+          <Key>
+            <PropertyRef Name="teacherid" />
+          </Key>
+          <Property Name="teacherid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="teacherFIO" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="birthdate" Type="DateTime" Precision="0" />
+          <Property Name="gender" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="phone" Type="Int32" />
+          <Property Name="subjectspecialization" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Classes" Relationship="Self.FK__Classes__class_t__38996AB5" FromRole="Teachers" ToRole="Classes" />
+          <NavigationProperty Name="Grades" Relationship="Self.FK__Grades__teacher___45F365D3" FromRole="Teachers" ToRole="Grades" />
+          <NavigationProperty Name="Subjects" Relationship="Self.TeacherSubjects" FromRole="Teachers" ToRole="Subjects" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="userid" />
+          </Key>
+          <Property Name="userid" Type="Int32" Nullable="false" />
+          <Property Name="login" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="passw" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="rights" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <NavigationProperty Name="Journ" Relationship="Self.FK_Journ_Users" FromRole="Users" ToRole="Journ" />
+        </EntityType>
+        <Association Name="FK__Classes__class_t__38996AB5">
+          <End Role="Teachers" Type="Self.Teachers" Multiplicity="0..1" />
+          <End Role="Classes" Type="Self.Classes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Teachers">
+              <PropertyRef Name="teacherid" />
+            </Principal>
+            <Dependent Role="Classes">
+              <PropertyRef Name="classteacherid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Students__class___3B75D760">
+          <End Role="Classes" Type="Self.Classes" Multiplicity="0..1" />
+          <End Role="Students" Type="Self.Students" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Classes">
+              <PropertyRef Name="classid" />
+            </Principal>
+            <Dependent Role="Students">
+              <PropertyRef Name="classid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Grades__student___440B1D61">
+          <End Role="Students" Type="Self.Students" Multiplicity="0..1" />
+          <End Role="Grades" Type="Self.Grades" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Students">
+              <PropertyRef Name="studentid" />
+            </Principal>
+            <Dependent Role="Grades">
+              <PropertyRef Name="studentid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Grades__subject___44FF419A">
+          <End Role="Subjects" Type="Self.Subjects" Multiplicity="0..1" />
+          <End Role="Grades" Type="Self.Grades" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Subjects">
+              <PropertyRef Name="subjectid" />
+            </Principal>
+            <Dependent Role="Grades">
+              <PropertyRef Name="subjectid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Grades__teacher___45F365D3">
+          <End Role="Teachers" Type="Self.Teachers" Multiplicity="0..1" />
+          <End Role="Grades" Type="Self.Grades" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Teachers">
+              <PropertyRef Name="teacherid" />
+            </Principal>
+            <Dependent Role="Grades">
+              <PropertyRef Name="teacherid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Journ_Users">
+          <End Role="Users" Type="Self.Users" Multiplicity="1" />
+          <End Role="Journ" Type="Self.Journ" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="userid" />
+            </Principal>
+            <Dependent Role="Journ">
+              <PropertyRef Name="userid" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="TeacherSubjects">
+          <End Role="Subjects" Type="Self.Subjects" Multiplicity="*" />
+          <End Role="Teachers" Type="Self.Teachers" Multiplicity="*" />
+        </Association>
+        <EntityContainer Name="SchoolDBEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Classes" EntityType="Self.Classes" />
+          <EntitySet Name="Grades" EntityType="Self.Grades" />
+          <EntitySet Name="Journ" EntityType="Self.Journ" />
+          <EntitySet Name="Students" EntityType="Self.Students" />
+          <EntitySet Name="Subjects" EntityType="Self.Subjects" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+          <EntitySet Name="Teachers" EntityType="Self.Teachers" />
+          <EntitySet Name="Users" EntityType="Self.Users" />
+          <AssociationSet Name="FK__Classes__class_t__38996AB5" Association="Self.FK__Classes__class_t__38996AB5">
+            <End Role="Teachers" EntitySet="Teachers" />
+            <End Role="Classes" EntitySet="Classes" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Students__class___3B75D760" Association="Self.FK__Students__class___3B75D760">
+            <End Role="Classes" EntitySet="Classes" />
+            <End Role="Students" EntitySet="Students" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Grades__student___440B1D61" Association="Self.FK__Grades__student___440B1D61">
+            <End Role="Students" EntitySet="Students" />
+            <End Role="Grades" EntitySet="Grades" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Grades__subject___44FF419A" Association="Self.FK__Grades__subject___44FF419A">
+            <End Role="Subjects" EntitySet="Subjects" />
+            <End Role="Grades" EntitySet="Grades" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Grades__teacher___45F365D3" Association="Self.FK__Grades__teacher___45F365D3">
+            <End Role="Teachers" EntitySet="Teachers" />
+            <End Role="Grades" EntitySet="Grades" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Journ_Users" Association="Self.FK_Journ_Users">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Journ" EntitySet="Journ" />
+          </AssociationSet>
+          <AssociationSet Name="TeacherSubjects" Association="Self.TeacherSubjects">
+            <End Role="Subjects" EntitySet="Subjects" />
+            <End Role="Teachers" EntitySet="Teachers" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище SchoolDBModelContainer" CdmEntityContainer="SchoolDBEntities1">
+          <EntitySetMapping Name="Classes">
+            <EntityTypeMapping TypeName="SchoolDBModel.Classes">
+              <MappingFragment StoreEntitySet="Classes">
+                <ScalarProperty Name="classid" ColumnName="classid" />
+                <ScalarProperty Name="classname" ColumnName="classname" />
+                <ScalarProperty Name="classteacherid" ColumnName="classteacherid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Grades">
+            <EntityTypeMapping TypeName="SchoolDBModel.Grades">
+              <MappingFragment StoreEntitySet="Grades">
+                <ScalarProperty Name="gradeid" ColumnName="gradeid" />
+                <ScalarProperty Name="studentid" ColumnName="studentid" />
+                <ScalarProperty Name="subjectid" ColumnName="subjectid" />
+                <ScalarProperty Name="grade" ColumnName="grade" />
+                <ScalarProperty Name="gradedate" ColumnName="gradedate" />
+                <ScalarProperty Name="teacherid" ColumnName="teacherid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Journ">
+            <EntityTypeMapping TypeName="SchoolDBModel.Journ">
+              <MappingFragment StoreEntitySet="Journ">
+                <ScalarProperty Name="idlog" ColumnName="idlog" />
+                <ScalarProperty Name="login" ColumnName="login" />
+                <ScalarProperty Name="operation" ColumnName="operation" />
+                <ScalarProperty Name="dateop" ColumnName="dateop" />
+                <ScalarProperty Name="userid" ColumnName="userid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Students">
+            <EntityTypeMapping TypeName="SchoolDBModel.Students">
+              <MappingFragment StoreEntitySet="Students">
+                <ScalarProperty Name="studentid" ColumnName="studentid" />
+                <ScalarProperty Name="studentFIO" ColumnName="studentFIO" />
+                <ScalarProperty Name="birthdate" ColumnName="birthdate" />
+                <ScalarProperty Name="gender" ColumnName="gender" />
+                <ScalarProperty Name="phone" ColumnName="phone" />
+                <ScalarProperty Name="classid" ColumnName="classid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Subjects">
+            <EntityTypeMapping TypeName="SchoolDBModel.Subjects">
+              <MappingFragment StoreEntitySet="Subjects">
+                <ScalarProperty Name="subjectid" ColumnName="subjectid" />
+                <ScalarProperty Name="subjectname" ColumnName="subjectname" />
+                <ScalarProperty Name="hoursperweek" ColumnName="hoursperweek" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="SchoolDBModel.sysdiagrams">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Teachers">
+            <EntityTypeMapping TypeName="SchoolDBModel.Teachers">
+              <MappingFragment StoreEntitySet="Teachers">
+                <ScalarProperty Name="teacherid" ColumnName="teacherid" />
+                <ScalarProperty Name="teacherFIO" ColumnName="teacherFIO" />
+                <ScalarProperty Name="birthdate" ColumnName="birthdate" />
+                <ScalarProperty Name="gender" ColumnName="gender" />
+                <ScalarProperty Name="phone" ColumnName="phone" />
+                <ScalarProperty Name="subjectspecialization" ColumnName="subjectspecialization" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="SchoolDBModel.Users">
+              <MappingFragment StoreEntitySet="Users">
+                <ScalarProperty Name="userid" ColumnName="userid" />
+                <ScalarProperty Name="login" ColumnName="login" />
+                <ScalarProperty Name="passw" ColumnName="passw" />
+                <ScalarProperty Name="rights" ColumnName="rights" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="TeacherSubjects" TypeName="SchoolDBModel.TeacherSubjects" StoreEntitySet="TeacherSubjects">
+            <EndProperty Name="Subjects">
+              <ScalarProperty Name="subjectid" ColumnName="subjectid" />
+            </EndProperty>
+            <EndProperty Name="Teachers">
+              <ScalarProperty Name="teacherid" ColumnName="teacherid" />
+            </EndProperty>
+          </AssociationSetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

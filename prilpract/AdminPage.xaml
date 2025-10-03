@@ -1,0 +1,78 @@
+﻿<Page x:Class="prilpract.AdminPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:prilpract"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AdminPage">
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="CadetBlue"/>
+                <GradientStop Color="CadetBlue" Offset="1"/>
+                <GradientStop Color="CadetBlue" Offset="0.382"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <!-- Кнопка Выход в левом верхнем углу -->
+        <Button x:Name="ExitButton" Content="Выход" Width="80" Height="30" 
+            HorizontalAlignment="Left" VerticalAlignment="Top" 
+            Margin="10,10,0,0" Background="DimGray" Foreground="White"
+            FontFamily="Georgia" Click="ExitButton_Click"/>
+
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" 
+                Width="450" Height="280">
+            <TextBlock Text="МБОУ БГО СОШ №13" FontWeight="Bold" Margin="0,0,0,30" 
+                   HorizontalAlignment="Center" FontFamily="Georgia" FontSize="36"/>
+
+            <TextBlock Text="Электронная система управления" FontSize="16" Margin="0,0,0,40" 
+                   HorizontalAlignment="Center" FontFamily="Georgia"/>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <!-- Первый столбец -->
+                <Button x:Name="AdminButton" Grid.Column="0" Grid.Row="0" 
+                    Content="Администрирование" Width="200" Height="40" FontSize="18" 
+                    Background="DimGray" Foreground="White" FontFamily="Georgia" 
+                    Margin="5" Click="AdminButton_Click"/>
+
+                <Button x:Name="StudentsButton" Grid.Column="0" Grid.Row="1" 
+                    Content="Учащиеся" Width="200" Height="40" FontSize="18" 
+                    Background="DimGray" Foreground="White" FontFamily="Georgia" 
+                    Margin="5" Click="StudentsButton_Click"/>
+
+                <Button x:Name="SubjectsButton" Grid.Column="0" Grid.Row="2" 
+                    Content="Предметы" Width="200" Height="40" FontSize="18" 
+                    Background="DimGray" Foreground="White" FontFamily="Georgia" 
+                    Margin="5" Click="SubjectsButton_Click"/>
+
+                <!-- Второй столбец -->
+                <Button x:Name="JournButton" Grid.Column="1" Grid.Row="0" 
+                    Content="Журнал регистрации" Width="200" Height="40" FontSize="18" 
+                    Background="DimGray" Foreground="White" FontFamily="Georgia" 
+                    Margin="5" Click="JournButton_Click"/>
+
+                <Button x:Name="TeachersButton" Grid.Column="1" Grid.Row="1" 
+                    Content="Преподаватели" Width="200" Height="40" FontSize="18" 
+                    Background="DimGray" Foreground="White" FontFamily="Georgia" 
+                    Margin="5" Click="TeachersButton_Click"/>
+
+                <Button x:Name="GradesButton" Grid.Column="1" Grid.Row="2" 
+                    Content="Оценки" Width="200" Height="40" FontSize="18" 
+                    Background="DimGray" Foreground="White" FontFamily="Georgia" 
+                    Margin="5" Click="GradesButton_Click"/>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Page>

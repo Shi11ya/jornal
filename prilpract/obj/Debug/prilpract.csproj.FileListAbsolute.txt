@@ -1,0 +1,331 @@
+C:\Users\Альбиночка\source\repos\prilpract\prilpract\bin\Debug\Database1.mdf
+C:\Users\Альбиночка\source\repos\prilpract\prilpract\bin\Debug\Database1_log.ldf
+C:\Users\Альбиночка\source\repos\prilpract\prilpract\bin\Debug\prilpract.exe.config
+C:\Users\Альбиночка\source\repos\prilpract\prilpract\bin\Debug\prilpract.exe
+C:\Users\Альбиночка\source\repos\prilpract\prilpract\bin\Debug\prilpract.pdb
+C:\Users\Альбиночка\source\repos\prilpract\prilpract\obj\Debug\prilpract.csproj.AssemblyReference.cache
+C:\Users\Альбиночка\source\repos\prilpract\prilpract\obj\Debug\GradesPage.g.cs
+C:\Users\Альбиночка\source\repos\prilpract\prilpract\obj\Debug\MainPage.g.cs
+C:\Users\Альбиночка\source\repos\prilpract\prilpract\obj\Debug\MainWindow.g.cs
+C:\Users\Альбиночка\source\repos\prilpract\prilpract\obj\Debug\StudentsPage.g.cs
+C:\Users\Альбиночка\source\repos\prilpract\prilpract\obj\Debug\TeachersPage.g.cs
+C:\Users\Альбиночка\source\repos\prilpract\prilpract\obj\Debug\App.g.cs
+C:\Users\Альбиночка\source\repos\prilpract\prilpract\obj\Debug\prilpract_Content.g.cs
+C:\Users\Альбиночка\source\repos\prilpract\prilpract\obj\Debug\prilpract_MarkupCompile.cache
+C:\Users\Альбиночка\source\repos\prilpract\prilpract\obj\Debug\prilpract_MarkupCompile.lref
+C:\Users\Альбиночка\source\repos\prilpract\prilpract\obj\Debug\GradesPage.baml
+C:\Users\Альбиночка\source\repos\prilpract\prilpract\obj\Debug\MainPage.baml
+C:\Users\Альбиночка\source\repos\prilpract\prilpract\obj\Debug\MainWindow.baml
+C:\Users\Альбиночка\source\repos\prilpract\prilpract\obj\Debug\StudentsPage.baml
+C:\Users\Альбиночка\source\repos\prilpract\prilpract\obj\Debug\TeachersPage.baml
+C:\Users\Альбиночка\source\repos\prilpract\prilpract\obj\Debug\prilpract.g.resources
+C:\Users\Альбиночка\source\repos\prilpract\prilpract\obj\Debug\prilpract.Properties.Resources.resources
+C:\Users\Альбиночка\source\repos\prilpract\prilpract\obj\Debug\prilpract.csproj.GenerateResource.cache
+C:\Users\Альбиночка\source\repos\prilpract\prilpract\obj\Debug\prilpract.csproj.CoreCompileInputs.cache
+C:\Users\Альбиночка\source\repos\prilpract\prilpract\obj\Debug\prilpract.exe
+C:\Users\Альбиночка\source\repos\prilpract\prilpract\obj\Debug\prilpract.pdb
+E:\data\prilpract\bin\Debug\SchoolDB.mdf
+E:\data\prilpract\bin\Debug\SchoolDB_log.ldf
+E:\data\prilpract\bin\Debug\prilpract.exe.config
+E:\data\prilpract\bin\Debug\prilpract.exe
+E:\data\prilpract\bin\Debug\prilpract.pdb
+E:\data\prilpract\obj\Debug\prilpract.csproj.AssemblyReference.cache
+E:\data\prilpract\obj\Debug\ClassAdd.g.cs
+E:\data\prilpract\obj\Debug\ClassesPage.g.cs
+E:\data\prilpract\obj\Debug\GradesAdd.g.cs
+E:\data\prilpract\obj\Debug\GradesPage.g.cs
+E:\data\prilpract\obj\Debug\MainPage.g.cs
+E:\data\prilpract\obj\Debug\MainWindow.g.cs
+E:\data\prilpract\obj\Debug\StudentsAdd.g.cs
+E:\data\prilpract\obj\Debug\StudentsPage.g.cs
+E:\data\prilpract\obj\Debug\SubjectAdd.g.cs
+E:\data\prilpract\obj\Debug\SubjectPage.g.cs
+E:\data\prilpract\obj\Debug\TeachersAdd.g.cs
+E:\data\prilpract\obj\Debug\TeachersPage.g.cs
+E:\data\prilpract\obj\Debug\App.g.cs
+E:\data\prilpract\obj\Debug\prilpract_Content.g.cs
+E:\data\prilpract\obj\Debug\prilpract_MarkupCompile.cache
+E:\data\prilpract\obj\Debug\prilpract_MarkupCompile.lref
+E:\data\prilpract\obj\Debug\ClassAdd.baml
+E:\data\prilpract\obj\Debug\ClassesPage.baml
+E:\data\prilpract\obj\Debug\GradesAdd.baml
+E:\data\prilpract\obj\Debug\GradesPage.baml
+E:\data\prilpract\obj\Debug\MainPage.baml
+E:\data\prilpract\obj\Debug\MainWindow.baml
+E:\data\prilpract\obj\Debug\StudentsAdd.baml
+E:\data\prilpract\obj\Debug\StudentsPage.baml
+E:\data\prilpract\obj\Debug\SubjectAdd.baml
+E:\data\prilpract\obj\Debug\SubjectPage.baml
+E:\data\prilpract\obj\Debug\TeachersAdd.baml
+E:\data\prilpract\obj\Debug\TeachersPage.baml
+E:\data\prilpract\obj\Debug\prilpract.g.resources
+E:\data\prilpract\obj\Debug\prilpract.Properties.Resources.resources
+E:\data\prilpract\obj\Debug\prilpract.csproj.GenerateResource.cache
+E:\data\prilpract\obj\Debug\prilpract.csproj.CoreCompileInputs.cache
+E:\data\prilpract\obj\Debug\prilpract.exe
+E:\data\prilpract\obj\Debug\prilpract.pdb
+E:\админи\Новая папка\data\prilpract\bin\Debug\SchoolDB.mdf
+E:\админи\Новая папка\data\prilpract\bin\Debug\SchoolDB_log.ldf
+E:\админи\Новая папка\data\prilpract\bin\Debug\prilpract.exe.config
+E:\админи\Новая папка\data\prilpract\bin\Debug\prilpract.exe
+E:\админи\Новая папка\data\prilpract\bin\Debug\prilpract.pdb
+E:\админи\Новая папка\data\prilpract\bin\Debug\EntityFramework.dll
+E:\админи\Новая папка\data\prilpract\bin\Debug\EntityFramework.SqlServer.dll
+E:\админи\Новая папка\data\prilpract\bin\Debug\EntityFramework.xml
+E:\админи\Новая папка\data\prilpract\bin\Debug\EntityFramework.SqlServer.xml
+E:\админи\Новая папка\data\prilpract\obj\Debug\prilpract.csproj.AssemblyReference.cache
+E:\админи\Новая папка\data\prilpract\obj\Debug\ClassAdd.g.cs
+E:\админи\Новая папка\data\prilpract\obj\Debug\ClassesPage.g.cs
+E:\админи\Новая папка\data\prilpract\obj\Debug\GradesAdd.g.cs
+E:\админи\Новая папка\data\prilpract\obj\Debug\GradesPage.g.cs
+E:\админи\Новая папка\data\prilpract\obj\Debug\MainPage.g.cs
+E:\админи\Новая папка\data\prilpract\obj\Debug\MainWindow.g.cs
+E:\админи\Новая папка\data\prilpract\obj\Debug\StudentsAdd.g.cs
+E:\админи\Новая папка\data\prilpract\obj\Debug\StudentsPage.g.cs
+E:\админи\Новая папка\data\prilpract\obj\Debug\SubjectAdd.g.cs
+E:\админи\Новая папка\data\prilpract\obj\Debug\SubjectPage.g.cs
+E:\админи\Новая папка\data\prilpract\obj\Debug\TeachersAdd.g.cs
+E:\админи\Новая папка\data\prilpract\obj\Debug\TeachersPage.g.cs
+E:\админи\Новая папка\data\prilpract\obj\Debug\App.g.cs
+E:\админи\Новая папка\data\prilpract\obj\Debug\prilpract_Content.g.cs
+E:\админи\Новая папка\data\prilpract\obj\Debug\prilpract_MarkupCompile.cache
+E:\админи\Новая папка\data\prilpract\obj\Debug\prilpract_MarkupCompile.lref
+E:\админи\Новая папка\data\prilpract\obj\Debug\ClassAdd.baml
+E:\админи\Новая папка\data\prilpract\obj\Debug\ClassesPage.baml
+E:\админи\Новая папка\data\prilpract\obj\Debug\GradesAdd.baml
+E:\админи\Новая папка\data\prilpract\obj\Debug\GradesPage.baml
+E:\админи\Новая папка\data\prilpract\obj\Debug\MainPage.baml
+E:\админи\Новая папка\data\prilpract\obj\Debug\MainWindow.baml
+E:\админи\Новая папка\data\prilpract\obj\Debug\StudentsAdd.baml
+E:\админи\Новая папка\data\prilpract\obj\Debug\StudentsPage.baml
+E:\админи\Новая папка\data\prilpract\obj\Debug\SubjectAdd.baml
+E:\админи\Новая папка\data\prilpract\obj\Debug\SubjectPage.baml
+E:\админи\Новая папка\data\prilpract\obj\Debug\TeachersAdd.baml
+E:\админи\Новая папка\data\prilpract\obj\Debug\TeachersPage.baml
+E:\админи\Новая папка\data\prilpract\obj\Debug\prilpract.g.resources
+E:\админи\Новая папка\data\prilpract\obj\Debug\prilpract.Properties.Resources.resources
+E:\админи\Новая папка\data\prilpract\obj\Debug\prilpract.csproj.GenerateResource.cache
+E:\админи\Новая папка\data\prilpract\obj\Debug\prilpract.csproj.CoreCompileInputs.cache
+E:\админи\Новая папка\data\prilpract\obj\Debug\prilpract.csproj.Up2Date
+E:\админи\Новая папка\data\prilpract\obj\Debug\prilpract.exe
+E:\админи\Новая папка\data\prilpract\obj\Debug\prilpract.pdb
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\bin\Debug\SchoolDB.mdf
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\bin\Debug\SchoolDB_log.ldf
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\bin\Debug\prilpract.exe.config
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\bin\Debug\prilpract.exe
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\bin\Debug\prilpract.pdb
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\bin\Debug\EntityFramework.dll
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\bin\Debug\EntityFramework.xml
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\prilpract.csproj.AssemblyReference.cache
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\ClassAdd.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\ClassesPage.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\GradesAdd.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\GradesPage.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\MainPage.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\MainWindow.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\StudentsAdd.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\StudentsPage.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\SubjectAdd.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\SubjectPage.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\TeachersAdd.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\TeachersPage.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\App.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\prilpract_Content.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\prilpract_MarkupCompile.cache
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\prilpract_MarkupCompile.lref
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\ClassAdd.baml
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\ClassesPage.baml
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\GradesAdd.baml
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\GradesPage.baml
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\MainPage.baml
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\MainWindow.baml
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\StudentsAdd.baml
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\StudentsPage.baml
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\SubjectAdd.baml
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\SubjectPage.baml
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\TeachersAdd.baml
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\TeachersPage.baml
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\prilpract.g.resources
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\prilpract.Properties.Resources.resources
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\prilpract.csproj.GenerateResource.cache
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\prilpract.csproj.CoreCompileInputs.cache
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\prilpract.csproj.Up2Date
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\prilpract.exe
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\prilpract.pdb
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\LogPage.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\data\prilpract\obj\Debug\LogPage.baml
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\bin\Debug\SchoolDB.mdf
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\bin\Debug\SchoolDB_log.ldf
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\bin\Debug\prilpract.exe.config
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\bin\Debug\prilpract.exe
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\bin\Debug\prilpract.pdb
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\bin\Debug\EntityFramework.dll
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\bin\Debug\EntityFramework.xml
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\prilpract.csproj.AssemblyReference.cache
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\ClassAdd.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\ClassesPage.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\GradesAdd.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\GradesPage.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\LogPage.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\MainPage.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\MainWindow.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\StudentsAdd.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\StudentsPage.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\SubjectAdd.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\SubjectPage.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\TeachersAdd.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\TeachersPage.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\App.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\prilpract_Content.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\prilpract_MarkupCompile.cache
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\prilpract_MarkupCompile.lref
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\ClassAdd.baml
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\ClassesPage.baml
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\GradesAdd.baml
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\GradesPage.baml
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\LogPage.baml
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\MainPage.baml
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\MainWindow.baml
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\StudentsAdd.baml
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\StudentsPage.baml
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\SubjectAdd.baml
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\SubjectPage.baml
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\TeachersAdd.baml
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\TeachersPage.baml
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\prilpract.g.resources
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\prilpract.Properties.Resources.resources
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\prilpract.csproj.GenerateResource.cache
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\prilpract.csproj.CoreCompileInputs.cache
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\prilpract.csproj.Up2Date
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\prilpract.exe
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\prilpract.pdb
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\UsrAdd.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\UsrPage.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\AdminPage.g.cs
+C:\Users\Альбиночка\OneDrive\Desktop\dfg\prilpract\obj\Debug\dfhjk.g.cs
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\prilpract.csproj.AssemblyReference.cache
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\AdminPage.g.cs
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\ClassAdd.g.cs
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\ClassesPage.g.cs
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\dfhjk.g.cs
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\GradesAdd.g.cs
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\GradesPage.g.cs
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\LogPage.g.cs
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\MainPage.g.cs
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\MainWindow.g.cs
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\StudentsAdd.g.cs
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\StudentsPage.g.cs
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\SubjectAdd.g.cs
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\SubjectPage.g.cs
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\TeachersAdd.g.cs
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\TeachersPage.g.cs
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\UsrAdd.g.cs
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\UsrPage.g.cs
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\App.g.cs
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\prilpract_Content.g.cs
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\prilpract_MarkupCompile.cache
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\prilpract_MarkupCompile.lref
+C:\Users\Альбиночка\Desktop\dfg\prilpract\bin\Debug\SchoolDB.mdf
+C:\Users\Альбиночка\Desktop\dfg\prilpract\bin\Debug\SchoolDB_log.ldf
+C:\Users\Альбиночка\Desktop\dfg\prilpract\bin\Debug\prilpract.exe.config
+C:\Users\Альбиночка\Desktop\dfg\prilpract\bin\Debug\prilpract.exe
+C:\Users\Альбиночка\Desktop\dfg\prilpract\bin\Debug\prilpract.pdb
+C:\Users\Альбиночка\Desktop\dfg\prilpract\bin\Debug\EntityFramework.dll
+C:\Users\Альбиночка\Desktop\dfg\prilpract\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Альбиночка\Desktop\dfg\prilpract\bin\Debug\EntityFramework.xml
+C:\Users\Альбиночка\Desktop\dfg\prilpract\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\AdminPage.baml
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\ClassAdd.baml
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\ClassesPage.baml
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\dfhjk.baml
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\GradesAdd.baml
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\GradesPage.baml
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\LogPage.baml
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\MainPage.baml
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\MainWindow.baml
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\StudentsAdd.baml
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\StudentsPage.baml
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\SubjectAdd.baml
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\SubjectPage.baml
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\TeachersAdd.baml
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\TeachersPage.baml
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\UsrAdd.baml
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\UsrPage.baml
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\prilpract.g.resources
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\prilpract.Properties.Resources.resources
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\prilpract.csproj.GenerateResource.cache
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\prilpract.csproj.CoreCompileInputs.cache
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\prilpract.csproj.Up2Date
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\prilpract.exe
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\prilpract.pdb
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\prilpract.exe.config
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\JoAdd.g.cs
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\JourPage.g.cs
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\JoAdd.baml
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\JourPage.baml
+C:\Users\Альбиночка\Desktop\dfg\prilpract\obj\Debug\prilpract.csproj.ResolveComReference.cache
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\bin\Debug\prilpract.exe.config
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\bin\Debug\prilpract.exe
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\bin\Debug\prilpract.pdb
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\bin\Debug\EntityFramework.dll
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\bin\Debug\EntityFramework.xml
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\prilpract.csproj.AssemblyReference.cache
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\prilpract.csproj.ResolveComReference.cache
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\AdminPage.g.cs
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\ClassAdd.g.cs
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\ClassesPage.g.cs
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\dfhjk.g.cs
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\GradesAdd.g.cs
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\GradesPage.g.cs
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\JoAdd.g.cs
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\JourPage.g.cs
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\LogPage.g.cs
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\MainPage.g.cs
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\MainWindow.g.cs
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\StudentsAdd.g.cs
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\StudentsPage.g.cs
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\SubjectAdd.g.cs
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\SubjectPage.g.cs
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\TeachersAdd.g.cs
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\TeachersPage.g.cs
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\UsrAdd.g.cs
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\UsrPage.g.cs
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\App.g.cs
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\prilpract_Content.g.cs
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\prilpract_MarkupCompile.cache
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\prilpract_MarkupCompile.lref
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\AdminPage.baml
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\ClassAdd.baml
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\ClassesPage.baml
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\dfhjk.baml
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\GradesAdd.baml
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\GradesPage.baml
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\JoAdd.baml
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\JourPage.baml
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\LogPage.baml
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\MainPage.baml
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\MainWindow.baml
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\StudentsAdd.baml
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\StudentsPage.baml
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\SubjectAdd.baml
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\SubjectPage.baml
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\TeachersAdd.baml
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\TeachersPage.baml
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\UsrAdd.baml
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\UsrPage.baml
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\prilpract.g.resources
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\prilpract.Properties.Resources.resources
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\prilpract.csproj.GenerateResource.cache
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\prilpract.csproj.CoreCompileInputs.cache
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\prilpract.csproj.Up2Date
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\prilpract.exe
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\prilpract.pdb
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\bin\Debug\Libriary.mdf
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\bin\Debug\Libriary_log.ldf
+C:\Users\lugov\OneDrive\Рабочий стол\Новая папка (2)\prilpract\obj\Debug\prilpract.exe.config

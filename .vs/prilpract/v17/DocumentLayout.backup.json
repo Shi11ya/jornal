@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lugov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C075BB7A-E88D-4877-B4A6-C4DDB44CD449}|prilpract\\prilpract.csproj|C:\\Users\\lugov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prilpract\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C075BB7A-E88D-4877-B4A6-C4DDB44CD449}|prilpract\\prilpract.csproj|solutionrelative:prilpract\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C075BB7A-E88D-4877-B4A6-C4DDB44CD449}|prilpract\\prilpract.csproj|c:\\users\\lugov\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prilpract\\dfhjk.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C075BB7A-E88D-4877-B4A6-C4DDB44CD449}|prilpract\\prilpract.csproj|solutionrelative:prilpract\\dfhjk.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C075BB7A-E88D-4877-B4A6-C4DDB44CD449}|prilpract\\prilpract.csproj|c:\\users\\lugov\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prilpract\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C075BB7A-E88D-4877-B4A6-C4DDB44CD449}|prilpract\\prilpract.csproj|solutionrelative:prilpract\\adminpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C075BB7A-E88D-4877-B4A6-C4DDB44CD449}|prilpract\\prilpract.csproj|C:\\Users\\lugov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prilpract\\studentspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C075BB7A-E88D-4877-B4A6-C4DDB44CD449}|prilpract\\prilpract.csproj|solutionrelative:prilpract\\studentspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C075BB7A-E88D-4877-B4A6-C4DDB44CD449}|prilpract\\prilpract.csproj|C:\\Users\\lugov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prilpract\\joadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C075BB7A-E88D-4877-B4A6-C4DDB44CD449}|prilpract\\prilpract.csproj|solutionrelative:prilpract\\joadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C075BB7A-E88D-4877-B4A6-C4DDB44CD449}|prilpract\\prilpract.csproj|C:\\Users\\lugov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prilpract\\jourpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C075BB7A-E88D-4877-B4A6-C4DDB44CD449}|prilpract\\prilpract.csproj|solutionrelative:prilpract\\jourpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C075BB7A-E88D-4877-B4A6-C4DDB44CD449}|prilpract\\prilpract.csproj|C:\\Users\\lugov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prilpract\\usradd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C075BB7A-E88D-4877-B4A6-C4DDB44CD449}|prilpract\\prilpract.csproj|solutionrelative:prilpract\\usradd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C075BB7A-E88D-4877-B4A6-C4DDB44CD449}|prilpract\\prilpract.csproj|C:\\Users\\lugov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prilpract\\usrpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C075BB7A-E88D-4877-B4A6-C4DDB44CD449}|prilpract\\prilpract.csproj|solutionrelative:prilpract\\usrpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C075BB7A-E88D-4877-B4A6-C4DDB44CD449}|prilpract\\prilpract.csproj|C:\\Users\\lugov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prilpract\\gradesadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C075BB7A-E88D-4877-B4A6-C4DDB44CD449}|prilpract\\prilpract.csproj|solutionrelative:prilpract\\gradesadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C075BB7A-E88D-4877-B4A6-C4DDB44CD449}|prilpract\\prilpract.csproj|C:\\Users\\lugov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prilpract\\gradespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C075BB7A-E88D-4877-B4A6-C4DDB44CD449}|prilpract\\prilpract.csproj|solutionrelative:prilpract\\gradespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dfhjk.xaml",
+              "DocumentMoniker": "C:\\Users\\lugov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prilpract\\dfhjk.xaml",
+              "RelativeDocumentMoniker": "prilpract\\dfhjk.xaml",
+              "ToolTip": "C:\\Users\\lugov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prilpract\\dfhjk.xaml",
+              "RelativeToolTip": "prilpract\\dfhjk.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-30T07:46:21.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminPage.xaml",
+              "DocumentMoniker": "C:\\Users\\lugov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prilpract\\AdminPage.xaml",
+              "RelativeDocumentMoniker": "prilpract\\AdminPage.xaml",
+              "ToolTip": "C:\\Users\\lugov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prilpract\\AdminPage.xaml*",
+              "RelativeToolTip": "prilpract\\AdminPage.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-29T20:37:52.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\lugov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prilpract\\MainPage.xaml",
+              "RelativeDocumentMoniker": "prilpract\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\lugov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prilpract\\MainPage.xaml",
+              "RelativeToolTip": "prilpract\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-29T20:35:53.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\lugov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prilpract\\StudentsPage.xaml",
+              "RelativeDocumentMoniker": "prilpract\\StudentsPage.xaml",
+              "ToolTip": "C:\\Users\\lugov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prilpract\\StudentsPage.xaml",
+              "RelativeToolTip": "prilpract\\StudentsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-29T20:32:19.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JoAdd.xaml",
+              "DocumentMoniker": "C:\\Users\\lugov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prilpract\\JoAdd.xaml",
+              "RelativeDocumentMoniker": "prilpract\\JoAdd.xaml",
+              "ToolTip": "C:\\Users\\lugov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prilpract\\JoAdd.xaml",
+              "RelativeToolTip": "prilpract\\JoAdd.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-29T20:27:55.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JourPage.xaml",
+              "DocumentMoniker": "C:\\Users\\lugov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prilpract\\JourPage.xaml",
+              "RelativeDocumentMoniker": "prilpract\\JourPage.xaml",
+              "ToolTip": "C:\\Users\\lugov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prilpract\\JourPage.xaml",
+              "RelativeToolTip": "prilpract\\JourPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-29T20:25:09.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsrAdd.xaml",
+              "DocumentMoniker": "C:\\Users\\lugov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prilpract\\UsrAdd.xaml",
+              "RelativeDocumentMoniker": "prilpract\\UsrAdd.xaml",
+              "ToolTip": "C:\\Users\\lugov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prilpract\\UsrAdd.xaml",
+              "RelativeToolTip": "prilpract\\UsrAdd.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-29T20:23:31.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsrPage.xaml",
+              "DocumentMoniker": "C:\\Users\\lugov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prilpract\\UsrPage.xaml",
+              "RelativeDocumentMoniker": "prilpract\\UsrPage.xaml",
+              "ToolTip": "C:\\Users\\lugov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prilpract\\UsrPage.xaml",
+              "RelativeToolTip": "prilpract\\UsrPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-29T20:21:54.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GradesAdd.xaml",
+              "DocumentMoniker": "C:\\Users\\lugov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prilpract\\GradesAdd.xaml",
+              "RelativeDocumentMoniker": "prilpract\\GradesAdd.xaml",
+              "ToolTip": "C:\\Users\\lugov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prilpract\\GradesAdd.xaml",
+              "RelativeToolTip": "prilpract\\GradesAdd.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-29T20:16:03.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GradesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\lugov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prilpract\\GradesPage.xaml",
+              "RelativeDocumentMoniker": "prilpract\\GradesPage.xaml",
+              "ToolTip": "C:\\Users\\lugov\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (2)\\prilpract\\GradesPage.xaml",
+              "RelativeToolTip": "prilpract\\GradesPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-29T20:13:54.065Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

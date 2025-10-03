@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище SchoolDBModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Classes">
+    <Key>
+      <PropertyRef Name="classid" />
+    </Key>
+    <Property Name="classid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="classname" Type="ntext" />
+    <Property Name="classteacherid" Type="int" />
+  </EntityType>
+  <EntityType Name="Grades">
+    <Key>
+      <PropertyRef Name="gradeid" />
+    </Key>
+    <Property Name="gradeid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="studentid" Type="int" />
+    <Property Name="subjectid" Type="int" />
+    <Property Name="grade" Type="decimal" Precision="6" Scale="1" />
+    <Property Name="gradedate" Type="date" />
+    <Property Name="teacherid" Type="int" />
+  </EntityType>
+  <EntityType Name="Journ">
+    <Key>
+      <PropertyRef Name="login" />
+    </Key>
+    <Property Name="idlog" Type="int" Nullable="false" />
+    <Property Name="login" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="operation" Type="ntext" Nullable="false" />
+    <Property Name="dateop" Type="date" Nullable="false" />
+    <Property Name="userid" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Students">
+    <Key>
+      <PropertyRef Name="studentid" />
+    </Key>
+    <Property Name="studentid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="studentFIO" Type="ntext" />
+    <Property Name="birthdate" Type="date" />
+    <Property Name="gender" Type="ntext" />
+    <Property Name="phone" Type="int" />
+    <Property Name="classid" Type="int" />
+  </EntityType>
+  <EntityType Name="Subjects">
+    <Key>
+      <PropertyRef Name="subjectid" />
+    </Key>
+    <Property Name="subjectid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="subjectname" Type="ntext" />
+    <Property Name="hoursperweek" Type="int" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Teachers">
+    <Key>
+      <PropertyRef Name="teacherid" />
+    </Key>
+    <Property Name="teacherid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="teacherFIO" Type="ntext" />
+    <Property Name="birthdate" Type="date" />
+    <Property Name="gender" Type="ntext" />
+    <Property Name="phone" Type="int" />
+    <Property Name="subjectspecialization" Type="ntext" />
+  </EntityType>
+  <EntityType Name="TeacherSubjects">
+    <Key>
+      <PropertyRef Name="teacherid" />
+      <PropertyRef Name="subjectid" />
+    </Key>
+    <Property Name="teacherid" Type="int" Nullable="false" />
+    <Property Name="subjectid" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="userid" />
+    </Key>
+    <Property Name="userid" Type="int" Nullable="false" />
+    <Property Name="login" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="passw" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="rights" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Classes__class_t__38996AB5">
+    <End Role="Teachers" Type="Self.Teachers" Multiplicity="0..1" />
+    <End Role="Classes" Type="Self.Classes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Teachers">
+        <PropertyRef Name="teacherid" />
+      </Principal>
+      <Dependent Role="Classes">
+        <PropertyRef Name="classteacherid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Grades__student___440B1D61">
+    <End Role="Students" Type="Self.Students" Multiplicity="0..1" />
+    <End Role="Grades" Type="Self.Grades" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Students">
+        <PropertyRef Name="studentid" />
+      </Principal>
+      <Dependent Role="Grades">
+        <PropertyRef Name="studentid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Grades__subject___44FF419A">
+    <End Role="Subjects" Type="Self.Subjects" Multiplicity="0..1" />
+    <End Role="Grades" Type="Self.Grades" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subjects">
+        <PropertyRef Name="subjectid" />
+      </Principal>
+      <Dependent Role="Grades">
+        <PropertyRef Name="subjectid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Grades__teacher___45F365D3">
+    <End Role="Teachers" Type="Self.Teachers" Multiplicity="0..1" />
+    <End Role="Grades" Type="Self.Grades" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Teachers">
+        <PropertyRef Name="teacherid" />
+      </Principal>
+      <Dependent Role="Grades">
+        <PropertyRef Name="teacherid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Students__class___3B75D760">
+    <End Role="Classes" Type="Self.Classes" Multiplicity="0..1" />
+    <End Role="Students" Type="Self.Students" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Classes">
+        <PropertyRef Name="classid" />
+      </Principal>
+      <Dependent Role="Students">
+        <PropertyRef Name="classid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Teacher_S__subje__412EB0B6">
+    <End Role="Subjects" Type="Self.Subjects" Multiplicity="1" />
+    <End Role="TeacherSubjects" Type="Self.TeacherSubjects" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subjects">
+        <PropertyRef Name="subjectid" />
+      </Principal>
+      <Dependent Role="TeacherSubjects">
+        <PropertyRef Name="subjectid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Teacher_S__teach__403A8C7D">
+    <End Role="Teachers" Type="Self.Teachers" Multiplicity="1" />
+    <End Role="TeacherSubjects" Type="Self.TeacherSubjects" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Teachers">
+        <PropertyRef Name="teacherid" />
+      </Principal>
+      <Dependent Role="TeacherSubjects">
+        <PropertyRef Name="teacherid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Journ_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Journ" Type="Self.Journ" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="userid" />
+      </Principal>
+      <Dependent Role="Journ">
+        <PropertyRef Name="userid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище SchoolDBModelContainer">
+    <EntitySet Name="Classes" EntityType="Self.Classes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Grades" EntityType="Self.Grades" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Journ" EntityType="Self.Journ" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Students" EntityType="Self.Students" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Subjects" EntityType="Self.Subjects" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Teachers" EntityType="Self.Teachers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TeacherSubjects" EntityType="Self.TeacherSubjects" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Classes__class_t__38996AB5" Association="Self.FK__Classes__class_t__38996AB5">
+      <End Role="Teachers" EntitySet="Teachers" />
+      <End Role="Classes" EntitySet="Classes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Grades__student___440B1D61" Association="Self.FK__Grades__student___440B1D61">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="Grades" EntitySet="Grades" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Grades__subject___44FF419A" Association="Self.FK__Grades__subject___44FF419A">
+      <End Role="Subjects" EntitySet="Subjects" />
+      <End Role="Grades" EntitySet="Grades" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Grades__teacher___45F365D3" Association="Self.FK__Grades__teacher___45F365D3">
+      <End Role="Teachers" EntitySet="Teachers" />
+      <End Role="Grades" EntitySet="Grades" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Students__class___3B75D760" Association="Self.FK__Students__class___3B75D760">
+      <End Role="Classes" EntitySet="Classes" />
+      <End Role="Students" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Teacher_S__subje__412EB0B6" Association="Self.FK__Teacher_S__subje__412EB0B6">
+      <End Role="Subjects" EntitySet="Subjects" />
+      <End Role="TeacherSubjects" EntitySet="TeacherSubjects" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Teacher_S__teach__403A8C7D" Association="Self.FK__Teacher_S__teach__403A8C7D">
+      <End Role="Teachers" EntitySet="Teachers" />
+      <End Role="TeacherSubjects" EntitySet="TeacherSubjects" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Journ_Users" Association="Self.FK_Journ_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Journ" EntitySet="Journ" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
